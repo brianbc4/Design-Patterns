@@ -9,11 +9,11 @@ package Bridge;
  *
  * @author user1
  */
-public interface DrawAPI {
+public interface CircleAPI {
     public void drawCircle(int radius, int x, int y);
 }
 
-class RedCircle implements DrawAPI{
+class RedCircle implements CircleAPI{
 
     @Override
     public void drawCircle(int radius, int x, int y) {
@@ -21,7 +21,7 @@ class RedCircle implements DrawAPI{
     }
 }
 
-   class GreenCircle implements DrawAPI {
+   class GreenCircle implements CircleAPI {
    @Override
    public void drawCircle(int radius, int x, int y) {
       System.out.println("Drawing Circle[ color: green, radius: " + radius + ", x: " + x + ", " + y + "]");
