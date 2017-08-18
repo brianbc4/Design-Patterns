@@ -22,7 +22,7 @@ public class Factory {
         } else if (type.equalsIgnoreCase("SQUARE")) {
             return new Square();
         }
-
+        
         return null;
     }
 
